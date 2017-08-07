@@ -7,6 +7,8 @@ export default class OtherScreen extends React.Component {
   };
 
   render() {
+    console.dir({debug: 'debug 调试'});
+
     return (
       <View style={styles.container}>
         <View style={styles.item} >
