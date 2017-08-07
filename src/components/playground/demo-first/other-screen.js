@@ -1,7 +1,11 @@
 import React from 'react';
-import { StyleSheet, View, Text } from 'react-native';
+import { Text, View, StyleSheet } from 'react-native';
 
-export default class FlexBox extends React.Component {
+export default class OtherScreen extends React.Component {
+  static navigationOptions = {
+    title: 'Chat with Lucy',
+  };
+
   render() {
     return (
       <View style={styles.container}>
@@ -36,7 +40,7 @@ const styles = StyleSheet.create({
     flex: 1, // 开启flexbox布局
     backgroundColor: 'steelblue',
 
-    flexDirection: 'row-reverse', // 方向，column垂直，row 水平
+    flexDirection: 'row-reverse', // 方向，column 垂直，row 水平
     flexWrap: 'wrap', // 换行
     justifyContent: 'flex-end', // 行内重心
     alignItems: 'center', // 单行重心，无换行时生效

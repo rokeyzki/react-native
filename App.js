@@ -3,12 +3,13 @@ import React from 'react';
 // import Pizza from './src/components/pizza';
 // import AntdMobileExam from './src/components/antd-mobile';
 // import SimpleApp from './src/components/navigation';
-import FlexBox from './src/components/flexbox/exam-a';
+// import Flexbox from './src/components/flexbox/example-first';
+import AppRoot from './src/components/playground/demo-first';
 
 export default class App extends React.Component {
   render() {
     return (
-      <FlexBox />
+      <AppRoot />
     );
   }
 }
