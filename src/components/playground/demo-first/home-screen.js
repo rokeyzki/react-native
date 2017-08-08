@@ -35,6 +35,7 @@ export default class HomeScreen extends React.Component {
         />
         <TextInput
           ref="myInput"
+          secureTextEntry={true}
           style={{height: 40, borderColor: 'gray', borderWidth: 1}}
         />
         <Button
